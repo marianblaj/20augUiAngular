@@ -1,0 +1,25 @@
+ul li {
+  list-style: none;
+}
+mat-toolbar{
+  max-height: 50px;
+}
+mat-toolbar-row{
+  background: rgb(255, 29, 37);
+  background: linear-gradient(90deg, rgba(255, 29, 37, 1) 0%, rgba(0, 130, 230, 1) 87%, rgba(0, 130, 230, 1) 100%);
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+fa-icon {
+  margin-right: 15px;
+  cursor: pointer;
+}
+
+.prodNumber {
+  position: absolute;
+  margin-left: -15px;
+
+}

@@ -1,0 +1,18 @@
+<mat-toolbar>
+  <mat-toolbar-row>
+    <div>
+      <button mat-icon-button (click)="emitToggleSideBar()">
+        <mat-icon>menu</mat-icon>
+      </button>
+      <span> Tachor Store </span>
+    </div>
+
+    <div>
+        <fa-icon [icon]="faCartPlus" routerLink="cart"></fa-icon>
+        <div style="font-size: 10px;" class="badge bg-danger prodNumber">{{totalItems}}</div>
+    </div>
+
+  </mat-toolbar-row>
+</mat-toolbar>
+
+
